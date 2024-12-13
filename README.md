@@ -74,7 +74,7 @@ For a live demonstration of the project in action, check out this video on Youru
 <p align="center">
   <img src="images/not registered.jpg" alt="Left Image" width="290" style="margin-right: 10px;" />
   <img src="images/unknown.jpg" alt="Middle Image" width="290" style="margin-right: 10px;" />
-  <img src="images/person.jpg" alt="Right Image" width="290" />
+  <img src="images/person.jpg" alt="Right Image" width="430" />
 </p>
     
 ### **Intruder Detection and Actuator Control**: 
