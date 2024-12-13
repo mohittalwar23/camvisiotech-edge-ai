@@ -95,6 +95,7 @@ Additionally, ThingSpeak’s built-in support for webhooks significantly enhance
 ## Setup
 
 For detailed setup instructions, refer to this article: 
+
 [AIoT Security System with GSM & Wi-Fi Enabled Remote Monitoring](https://circuitdigest.com/microcontroller-projects/aiot-security-system-with-gsm-wifi-enabled-remote-monitoring).
 
 This project was also submitted as part of the IoT and Edge AI Challenge 2024 by Circuit Digest.
