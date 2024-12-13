@@ -1,5 +1,7 @@
-## camvisiotech-edge-ai-wifi
-CamVisioTech is a standalone AI-powered face detection and recognition system built on the Maixduino hardware. This project is designed to operate independently without relying on external computing resources, making it efficient and accessible in low-resource environments. The project integrates both WiFi and GSM modules for network connectivity, allowing for real-time alerts and versatile deployment in environments with limited internet access. This particular repository contains the setup for the Wifi based approach to it.
+## camvisiotech-edge-ai
+CamVisioTech is a standalone AI-powered face detection and recognition system built on the Maixduino hardware. This project is designed to operate independently without relying on external computing resources, making it efficient and accessible in low-resource environments. The project integrates both WiFi and GSM modules for network connectivity, allowing for real-time alerts and versatile deployment in environments with limited internet access. 
+
+This particular branch contains the WIFI implementation , the **via_gsm** branch contains the code for the GSM implementation
 
 ## **Project Overview**
 
@@ -17,7 +19,6 @@ For a live demonstration of the project in action, check out this video on Youru
     <img src="http://img.youtube.com/vi/dhHVKKKZovE/0.jpg" alt="Watch the video" width="560">
   </a>
 </div>
-
 
 
 ## **Hardware & Software Requirements**
@@ -61,7 +62,7 @@ For a live demonstration of the project in action, check out this video on Youru
       **Outcome**: Provides a precise facial map, aiding in consistent feature extraction for recognition.
 
 <div align="center">
-     <img src="images/landmark.jpg" alt="Multiple Face Detection" />
+     <img src="images/landmark.jpg" alt="Facial Landmark Detection" />
 </div>
     
   - **Feature Extraction**: 
@@ -73,9 +74,9 @@ For a live demonstration of the project in action, check out this video on Youru
       **Outcome**: Compares these vectors with stored profiles, recognizing known individuals and categorizing unknown ones as intruders.
 
 <p align="center">
-  <img src="images/not registered.jpg" alt="Left Image" width="300" style="margin-right: 10px;" />
-  <img src="images/unknown.jpg" alt="Middle Image" width="300" style="margin-right: 10px;" />
-  <img src="images/person.jpg" alt="Right Image" width="300" />
+  <img src="images/not registered.jpg" alt="Left Image" width="290" style="margin-right: 10px;" />
+  <img src="images/unknown.jpg" alt="Middle Image" width="290" style="margin-right: 10px;" />
+  <img src="images/person.jpg" alt="Right Image" width="430" />
 </p>
     
 ### **Intruder Detection and Actuator Control**: 
@@ -84,7 +85,19 @@ For a live demonstration of the project in action, check out this video on Youru
 ### **Communication and Alerts**: 
   For reliable notifications, the system can use either Wi-Fi or GSM connectivity to send alerts, ensuring communication in areas with variable internet access. Integrating with third-party messaging apps, like Telegram. This multifaceted communication ensures that users are informed wherever they are, making the system suitable for both urban and remote applications.
 
+## Flowchart:
+<div align="center">
+     <img src="images/wifi.png" alt="Wifi Flowchart" />
+</div>
 
+### Why Thingspeak as Mediator:
+ThingSpeak offers seamless integration for handling HTTP and MQTT protocols, making it an ideal choice for cloud data management. Devices can utilize HTTP POST and GET requests over Wi-Fi to send data directly to the cloud in real-time. In areas without Wi-Fi coverage, GSM-based devices can efficiently transmit data to ThingSpeak using MQTT, a lightweight messaging protocol optimized for 4G networks.
+Additionally, ThingSpeak’s built-in support for webhooks significantly enhances its versatility. Webhooks enable integration with platforms like IFTTT (If This Then That) and PipeDream (a free alternative I have used). This allows real-time data from ThingSpeak to trigger automated actions on other platforms. For instance, third-party tools like Telegram can be integrated via webhook triggers, enabling users to receive instant alerts or notifications effortlessly.
   
 ## Setup
-soon
+
+For detailed setup instructions, refer to this article: 
+
+[AIoT Security System with GSM & Wi-Fi Enabled Remote Monitoring](https://circuitdigest.com/microcontroller-projects/aiot-security-system-with-gsm-wifi-enabled-remote-monitoring).
+
+This project was also submitted as part of the IoT and Edge AI Challenge 2024 by Circuit Digest.
