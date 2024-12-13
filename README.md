@@ -45,8 +45,10 @@ For a live demonstration of the project in action, check out this video on Youru
       Model Type: YOLOv2 object detection model, optimized for real-time processing on the Maixduino’s hardware.
       
       Outcome: Locates face bounding boxes to trigger further analysis.
-
-     <img src="images/faces.jpg" alt="Multiple Face Detection" alignment=center />
+    
+<div align="center">
+     <img src="images/faces.jpg" alt="Multiple Face Detection" />
+</div>
 
   
   - **Face Landmark Detection**: 
