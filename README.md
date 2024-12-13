@@ -13,7 +13,9 @@ A smart surveillance system capable of:
 ### **Demo Video**
 
 For a live demonstration of the project in action, check out this video on Yourube
-[CamVisioTech 3.0 Maixduino ](https://www.youtube.com/watch?v=dhHVKKKZovE)
+
+[![CamVisioTech](https://img.youtube.com/vi/dhHVKKKZovE/0.jpg)](https://www.youtube.com/watch?v=dhHVKKKZovE)
+
 
 
 ## **Hardware & Software Requirements**
