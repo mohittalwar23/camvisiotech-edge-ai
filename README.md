@@ -71,6 +71,12 @@ For a live demonstration of the project in action, check out this video on Youru
       **Model Type**: Embedding model that outputs feature vectors for each detected face.
       
       **Outcome**: Compares these vectors with stored profiles, recognizing known individuals and categorizing unknown ones as intruders.
+
+<p align="center">
+  <img src="images/unknown.jpg" alt="Left Image" width="300" />
+  <img src="images/person.jpg" alt="Right Image" width="300" />
+</p>
+
     
 ### **Intruder Detection and Actuator Control**: 
   When an unrecognized person (not in the known faces array) is detected, the system categorizes them as an intruder. It triggers an immediate response, such as sounding a buzzer or activating an LED indicator. The system is also capable of relay control which also allows integration with other actuators, such as door locks, providing instant, real-time physical security.
