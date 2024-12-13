@@ -1,4 +1,4 @@
-## camvisiotech-edge-ai
+## CamVisioTech MK-2: Advanced Security via Edge AI
 CamVisioTech is a standalone AI-powered face detection and recognition system built on the Maixduino hardware. This project is designed to operate independently without relying on external computing resources, making it efficient and accessible in low-resource environments. The project integrates both WiFi and GSM modules for network connectivity, allowing for real-time alerts and versatile deployment in environments with limited internet access. 
 
 The **via_wifi** branch contains the WIFI implementation , the **via_gsm** branch contains the code for the GSM implementation
