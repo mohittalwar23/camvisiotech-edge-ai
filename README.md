@@ -19,7 +19,6 @@ For a live demonstration of the project in action, check out this video on Youru
 </div>
 
 
-
 ## **Hardware & Software Requirements**
 
 ### Hardware:
@@ -61,7 +60,7 @@ For a live demonstration of the project in action, check out this video on Youru
       **Outcome**: Provides a precise facial map, aiding in consistent feature extraction for recognition.
 
 <div align="center">
-     <img src="images/landmark.jpg" alt="Multiple Face Detection" />
+     <img src="images/landmark.jpg" alt="Facial Landmark Detection" />
 </div>
     
   - **Feature Extraction**: 
@@ -84,6 +83,10 @@ For a live demonstration of the project in action, check out this video on Youru
 ### **Communication and Alerts**: 
   For reliable notifications, the system can use either Wi-Fi or GSM connectivity to send alerts, ensuring communication in areas with variable internet access. Integrating with third-party messaging apps, like Telegram. This multifaceted communication ensures that users are informed wherever they are, making the system suitable for both urban and remote applications.
 
+## Flowchart:
+<div align="center">
+     <img src="images/wifi.png" alt="Wifi Flowchart" />
+</div>
 
   
 ## Setup
