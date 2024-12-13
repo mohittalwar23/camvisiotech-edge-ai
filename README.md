@@ -10,7 +10,7 @@ A smart surveillance system capable of:
 - No external computing is needed; all processing, from running ML model calculations to sending alerts, is handled on-board.
   
 
-### **Demo Video**
+## **Demo Video**
 
 For a live demonstration of the project in action, check out this video on Yourube
 
@@ -45,6 +45,9 @@ For a live demonstration of the project in action, check out this video on Youru
       Model Type: YOLOv2 object detection model, optimized for real-time processing on the Maixduino’s hardware.
       
       Outcome: Locates face bounding boxes to trigger further analysis.
+
+     <img src="images/faces.jpg" alt="Multiple Face Detection" alignment=center />
+
   
   - **Face Landmark Detection**: 
   
