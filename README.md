@@ -87,7 +87,7 @@ For a live demonstration of the project in action, check out this video on Youru
 
 ## Flowchart:
 <div align="center">
-     <img src="images/wifi.png" alt="Wifi Flowchart" />
+     <img src="images/Flowchart.png" alt="Flowchart" />
 </div>
 
 ### Why Thingspeak as Mediator:
