@@ -13,7 +13,9 @@ A smart surveillance system capable of:
 
 For a live demonstration of the project in action, check out this video on Yourube
 <div align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/dhHVKKKZovE" frameborder="0" allowfullscreen></iframe>
+  <a href="https://www.youtube.com/watch?v=dhHVKKKZovE">
+    <img src="http://img.youtube.com/vi/dhHVKKKZovE/0.jpg" alt="Watch the video" width="560">
+  </a>
 </div>
 
 
